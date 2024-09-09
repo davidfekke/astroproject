@@ -3,7 +3,7 @@ title: "I am moving my website over to Jekyll"
 category: "Jekyll"
 tags: [Jekyll]
 date: 2015-04-12
-cover_image: "./jekyllhero.png"
+cover_image: "./jekyljavascripthero.png"
 ---
 
 
