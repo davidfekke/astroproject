@@ -4,7 +4,7 @@ tags: ["Node.js", "JavaScript", "React-Native"]
 description: ""
 category: 
 date: 2022-06-26
-cover_image: "../2022-04-13//RNM1.jpg"
+cover_image: "./RNM1.jpg"
 ---
 
 <!-- <div style="text-align: center">
@@ -98,8 +98,6 @@ To test and make sure that this is set up correctly, we to start Metro first by 
 ```
 
 Once we have started Metro, we can run our iOS app again and navigate to the ViewController that contains our `RCTRootView` view. This should create a screen that looks like the following:
-
-![Simulator screen](./simulator_screenshot_79C883CC-EC1D-45E3-B986-CEF886F803B3.png)
 
 ## Conclusion
 

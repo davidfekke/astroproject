@@ -13,8 +13,6 @@ cover_image: "./alex-bracken-unsplash.jpg"
 
 Cordova is a very popular framework for creating mobile applications that are based on web technologies. It allows developers to create apps that are based on HTML, CSS and JavaScript. There are a number of different software development kits that are based on Cordova. These include Ionic and PhoneGap.
 
-![We don't need no Stinking Cordova](../../../static/stinking.cordova.jpg "Stinking Cordova")
-
 Some Cordova apps just use local content in the app, while some point to a remote endpoint. Either way the same thing can be accomplished fairly simply in a native mobile app using the native WebView components. Both iOS and Android have native components that can be used for displaying Web content. For this post I will show how to do this with Swift on iOS using the WKWebView.
 
 # iOS WebViews

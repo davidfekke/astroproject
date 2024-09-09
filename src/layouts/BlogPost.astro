@@ -8,8 +8,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, date, updatedDate, tags, cover_image } = Astro.props;
-const pubDate = new Date(date);
+const { title, description, date, cover_image } = Astro.props;
 
 const imagePath = `${Astro.url.pathname}${cover_image}`;
 console.log(`cover_image: ${imagePath}`);
@@ -17,7 +16,7 @@ console.log(`cover_image: ${imagePath}`);
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		{description && <BaseHead title={title} description={description} />}
 		<!-- <style>
 			main {
 				width: calc(100% - 2em);
